@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css/style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <title>B.A.T</title>
+</head>
+
+<body class="ydob">
+    <header class="flex">
+        <h1 class="bbb"><a href="index.html">Veltoria</a></h1>
+        <nav>
+            <ul class="aaa  flex">
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="bat.html">BOOK A TABLE</a></li>
+                <li><a href="#">VIP</a></li>
+            </ul>
+        </nav>
+
+        
+
+    </header>
+
+    <main>
+        <form id="reservationForm">
+            <div class="tab">
+            <button class="date-btn" type="button" id="dateBtn" onclick="showDateInput()">DATE</button>
+            <input type="date" id="date" name="date" style="display: none;"><br><br>
+            
+            <button  class="time-btn" type="button" id="timeBtn" onclick="showTimeInput()">TIME</button>
+            <input type="time" id="time" name="time" style="display: none;"><br><br>
+            
+            <button class="guests-btn" type="button" id="guestsBtn" onclick="showGuestsInput()">NUMBER OF GUESTS</button>
+            <input type="number" id="guests" name="guests" min="1" max="12" style="display: none;"><br><br>
+     </div>
+        </form>
+    
+        <div class="mtlianicalendari">
+            <div class="ads">
+                <p>
+                    kdjighvjdhbgvidejghbkjiedrgirkfgbkknbhkfrkin
+                </p>
+            </div>
+<div class="oriatas">
+    <p>2025</p>
+</div>
+<div class="calendar-container">
+    
+            <select id="month" onchange="generateCalendar()">
+            <option value="0">January</option>
+            <option value="1">February</option>
+            <option value="2">March</option>
+            <option value="3">April</option>
+            <option value="4">May</option>
+            <option value="5">June</option>
+            <option value="6">July</option>
+            <option value="7">August</option>
+            <option value="8">September</option>
+            <option value="9">October</option>
+            <option value="10">November</option>
+            <option value="11">December</option>
+        </select>
+    
+<div id="calendar-grid" class="calendar-grid">
+
+</div>
+        </div>
+<div class="kvira flex">
+    <p class="pad">
+        SUNDAY
+    </p>
+    <p class="pad">
+MONDAY
+    </p>
+    <p class="pad">
+TUESDAY
+    </p>
+    <p class="pad">
+WEDNESDAY
+    </p>
+    <p class="pad">
+THURSDAY
+    </p>
+    <p class="pad">
+FRIDAY
+    </p>
+    <p class="pad">
+SATURDAY
+    </p>
+</div>
+
+<div id="calendar" class="calendar">
+    <div id="days"></div>
+</div>
+        </div>
+
+
+
+        <div class="form-container">
+            <div class="timetext">
+<label for="time">TIME</label>
+</div>
+<div class="eee">
+<input type="time" id="timetbm" name="time">
+
+</div>
+
+<div class="nogtext">
+<label>NUMBER OF GUESTS</label>
+</div>
+<div class="rrr">
+<div class="guest-control">
+<button class="decrease"  id="decrease">-</button>
+<span id="guest-count">1</span>
+<button class="increase"  id="increase">+</button>
+</div>
+
+</div>
+
+
+<div class="pntext">
+<label for="phone">PHONE NUMBER</label>
+</div>
+<div class="ttt">
+<input type="tel" id="phone" name="phone" placeholder="+995123456789">
+        </div>
+
+</div>
+        <p class="button111 flex">
+            <a href="bat1.html" onclick="submitForm()">BOOK A TABLE</a>
+        </p>
+    </main>
+    <footer class="footer2">
+        <div class="itf flex">
+            <div><a href="#"><img src="img/insta.png" alt=""></a></div>
+            <div><a href="#"><img src="img/tviter.png" alt=""></a></div>
+            <div><a href="#"><img src="img/facebook.png" alt=""></a></div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/code.js"></script>
+    <script src="js/calendar.js"></script>
+    
+</body>
+
+</html>
