@@ -73,7 +73,9 @@ header {
     margin: 24px auto;
     font-family: Montserrat-VariableFont;
 }
-
+.the span{
+    color: transparent;
+}
 .button1 a {
     color: #000000;
     font-size: 35px;
@@ -122,6 +124,8 @@ header {
 
 .dishes_cintainer .sawmelebi img {
     width: 100%;
+    margin-top: 14px;
+    border-radius: 10px;
 }
 
 .dishes_cintainer section.flex {
@@ -159,6 +163,7 @@ header {
     text-align: center;
     display: block;
     padding: 66px 0 98px 0;
+    font-size: 30px;
 }
 
 .menu112 a {
@@ -195,7 +200,12 @@ footer {
     margin-top: 86px;
 }
 .wvenebisphotoebi{
-width: 1350px;
+width: 1500px;
+}
+.wvenebisphotoebi div img{
+    border-radius: 10px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
 }
 .date a{
     font-family: Montserrat-VariableFont;
@@ -392,7 +402,7 @@ margin-top: 48px;
 text-align: center;
 background-color: rgba(255, 255, 255, 0.65);
 padding-top: 20px;
-color: #FFFFFF;
+color: #000000;
 overflow: hidden;
 transition: 0.4s;
 }
@@ -441,12 +451,20 @@ height: 100%;
     font-size: 60px;
     align-items: center;
 }
+.kaci img{
+    margin-left: 50px;
+}
+.resto img {
+    margin-right: 50px;
+}
 .resto p{
- align-items: flex-start;
+    /* left: 8px; */
+    bottom: 8px;
  font-size: 36px;
 }
 .tefshi p{
-     align-items: flex-start;
+     /* left: 6px; */
+     bottom: 6px;
      font-size: 36px;
 }
 .footer2{
@@ -866,4 +884,28 @@ height: 56px;
 .day.active {
     background-color: #000000;
     color: white;          
+}
+.h2hhh{
+    font-size: 50px;
+    color: #0084ff;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.p1{
+    font-size: 25px;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.p2{
+    font-size: 25px;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.dishes_cintainer section a{
+    color: #000;
+}
+.ravira{
+    color: transparent;
 }
